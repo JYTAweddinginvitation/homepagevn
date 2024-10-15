@@ -71,15 +71,15 @@
             background-color: #e0e0e0;
         }
 
-        /* Style remittance buttons */
-        .remittance-grid {
+        /* Style address buttons */
+        .address-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* Creates a 2x2 layout */
             grid-gap: 10px; /* Adds spacing between the buttons */
             justify-content: center; /* Centers the grid */
         }
 
-        .remittance-button {
+        .address-button {
             padding: 10px 20px;
             background-color: black;
             color: white;
@@ -91,7 +91,7 @@
             transition: background-color 0.3s ease;
         }
 
-        .remittance-button:hover {
+        .address-button:hover {
             background-color: #333;
         }
 
@@ -139,7 +139,7 @@
 
         /* Adjustments for screens smaller than 480px */
         @media (max-width: 480px) {
-            .remittance-button {
+            .address-button {
                 font-size: 12px; /* Reduce font size on smaller screens */
             }
 
@@ -236,18 +236,13 @@
                 </div>
             </section>
 
-            <section id="remittance">
-                <h2>Remittance</h2>
-                <p>For those unable to attend in person but wishing to send their congratulations,</p>
-                <p></p>
-                <p>we have included our bank account details. We kindly ask for your understanding,</p>
-                <p></p>
-                <p>and we will cherish your heartfelt gestures as we strive to build a loving marriage.</p>
-                <div class="remittance-grid">
-                    <button class="remittance-button" data-idx="1">Groom</button>
-                    <button class="remittance-button" data-idx="2">Bride</button>
-                    <button class="remittance-button" data-idx="3">Groom's Family</button>
-                    <button class="remittance-button" data-idx="4">Bride's Family</button>
+            <section id="address">
+                <h2>Address</h2>
+                <div class="address-grid">
+                    <button class="address-button" data-idx="1">Groom</button>
+                    <button class="address-button" data-idx="2">Bride</button>
+                    <button class="address-button" data-idx="3">Groom's Family</button>
+                    <button class="address-button" data-idx="4">Bride's Family</button>
                 </div>
             </section>
         </main>
@@ -256,60 +251,62 @@
     <!-- Add the thank you image -->
     <img src="/homepage/img/thankyou.JPG" alt="Thank You" class="thank-you-image">
 
-    <!-- Popup Modals -->
+    <!-- Popup Modals for Addresses -->
     <div class="account-popup" data-idx="1">
         <div class="popup-content">
-            <h3>Groom's Account Number</h3>
-            <p>Account Holder: Kim Jun young 김준영</p>
-            <p class="account-number" id="groom-account">신한은행 110581193664
-            <button class="copy-button" data-account="groom-account">Copy</button> <!-- Copy button --> </p>
+            <h3>Groom's Address</h3>
+            <p>202-1901, 774 Woni-daero, Seongsan-gu, Changwon-si,</p>
+            <p>Gyeongsangnam-do, South Korea</p>
             <button class="close-popup">Close</button>
+            <a href="https://maps.app.goo.gl/eJPnQC9K7SPNz5VQA?g_st=com.google.maps.preview.copy" target="_blank">
+                <button class="google-map-button">Google Map</button>
+            </a>
         </div>
     </div>
 
     <div class="account-popup" data-idx="2">
         <div class="popup-content">
-            <h3>Bride's Account Number</h3>
-            <p>Account Holder : Luong Thuc Anh</p>
-            <p class="account-number" id="bride-account"> 우리은행 1002035203849 
-            <button class="copy-button" data-account="bride-account">Copy</button> <!-- Copy button --> </p>
+            <h3>Bride's Address</h3>
+            <p>202-1901, 774 Woni-daero, Seongsan-gu, Changwon-si,</p>
+            <p>Gyeongsangnam-do, South Korea</p>
             <button class="close-popup">Close</button>
+            <a href="https://maps.app.goo.gl/eJPnQC9K7SPNz5VQA?g_st=com.google.maps.preview.copy" target="_blank">
+                <button class="google-map-button">Google Map</button>
+            </a>
         </div>
     </div>
 
     <div class="account-popup" data-idx="3">
         <div class="popup-content">
-            <h3>Groom's Family's Account Number</h3>
-            <p>Groom's Father (Account Holder: Kim Je-Jung 김제중)</p>
-            <p class="account-number" id="kimjejung_account">농협 84512322040
-            <button class="copy-button" data-account="kimjejung_account">Copy</button> <!-- Copy button --> </p>
-            <p>Groom's Mother (Account Holder: Kim Hee-Won 김희원)</p>
-            <p class="account-number" id="kimheewon_account">우리은행 27908039244
-            <button class="copy-button" data-account="kimheewon_account">Copy</button> <!-- Copy button --> </p>
+            <h3>Groom's Family's Address</h3>
+            <p>BC3-18, Riverpark 1 Block B, 335 Hà Huy Tập,</p>
+            <p>Tân Phong, Quan 7, Ho Chi Minh</p>
             <button class="close-popup">Close</button>
+            <a href="https://maps.app.goo.gl/HqzJT5ftr3ugYMtr5?g_st=com.google.maps.preview.copy" target="_blank">
+                <button class="google-map-button">Google Map</button>
+            </a>
         </div>
     </div>
 
     <div class="account-popup" data-idx="4">
         <div class="popup-content">
-            <h3>Bride's Family's Account Number</h3>
-            <p>Account Holder : Luong Thuc Anh</p>
-            <p class="account-number" id="bride-account"> 우리은행 1002035203849 
-            <button class="copy-button" data-account="bride-account">Copy</button> <!-- Copy button --> </p>
+            <h3>Bride's Family's Address</h3>
+            <p>38/18 Đ. Trần Khắc Chân, Phường Tân Định,</p>
+            <p>Quận 1, Hồ Chí Minh, Vietnam</p>
             <button class="close-popup">Close</button>
+            <a href="https://maps.app.goo.gl/kLNd2MugXQyeBzzc6?g_st=com.google.maps.preview.copy" target="_blank">
+                <button class="google-map-button">Google Map</button>
+            </a>
         </div>
     </div>
 
-    <!-- Add other account popups here... -->
-
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const remittanceButtons = document.querySelectorAll('.remittance-button');
+            const addressButtons = document.querySelectorAll('.address-button');
             const accountPopups = document.querySelectorAll('.account-popup');
             const closePopupButtons = document.querySelectorAll('.close-popup');
-            const copyButtons = document.querySelectorAll('.copy-button');
 
-            remittanceButtons.forEach(button => {
+            addressButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const idx = button.getAttribute('data-idx');
                     document.querySelector(`.account-popup[data-idx="${idx}"]`).style.display = 'flex';
@@ -319,22 +316,6 @@
             closePopupButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     button.closest('.account-popup').style.display = 'none';
-                });
-            });
-
-            copyButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const accountId = button.getAttribute('data-account');
-                    const accountText = document.getElementById(accountId).textContent;
-                    const tempInput = document.createElement('input');
-                    tempInput.style.position = 'absolute';
-                    tempInput.style.left = '-9999px';
-                    document.body.appendChild(tempInput);
-                    tempInput.value = accountText;
-                    tempInput.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(tempInput);
-                    alert("Account number copied to clipboard!");
                 });
             });
 
