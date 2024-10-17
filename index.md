@@ -8,11 +8,11 @@ title: Junyoung + Thuc Anh
 <header class="sticky-header">
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#location">Location</a></li>
-            <li><a href="#contact">Contact</a></li>
+<li><a href="#home">Trang chủ</a></li>
+<li><a href="#about">Giới thiệu</a></li>
+<li><a href="#gallery">Thư viện</a></li>
+<li><a href="#location">Địa điểm</a></li>
+<li><a href="#contact">Liên hệ</a></li>
         </ul>
     </nav>
 </header>
@@ -27,29 +27,29 @@ title: Junyoung + Thuc Anh
 
     <!-- About Section -->
     <section id="about">
-        <h2 style="text-align: center;">About</h2>
+        <h2 style="text-align: center;">Giới thiệu</h2>
         <div style="text-align: center;">
             <img src="{{'/img/about.jpeg' | relative_url }} " alt="img" style="width: 80%; max-width: 600px; height: auto;">
         </div>
 
         <div style="text-align: center;">
-            <p>Request the pleasure of your company</p>
-            <p></p>
-            <p>to celebrate our marriage</p>
-            <p></p>
-            <p>on <strong>Saturday 11st January, 2025</strong></p>
-            <p></p>
-            <p>at <strong>Seven o'clock</strong></p>
-            <p></p>
-            <p>at <strong><a href="#location">La Vela Saigon</a></strong></p>
-            <p></p>
-            <p>5th floor, Jupiter Hall</p>
-            <p></p>
-            <p>cutting of the cake is followed</p>
-            <p></p>
-            <p>dancing until late</p>
-            <p></p>
-            <p>RSVP</p>
+ <p>Kính mời bạn đến tham dự</p>
+<p></p>
+<p>lễ cưới của chúng tôi</p>
+<p></p>
+<p>vào <strong>thứ Bảy, ngày 11 tháng 1 năm 2025</strong></p>
+<p></p>
+<p>lúc <strong>7 giờ tối</strong></p>
+<p></p>
+<p>tại <strong><a href="#location">La Vela Saigon</a></strong></p>
+<p></p>
+<p>Tầng 5, Sảnh Jupiter</p>
+<p></p>
+<p>tiếp theo là lễ cắt bánh</p>
+<p></p>
+<p>và khiêu vũ đến khuya</p>
+<p></p>
+<p>Vui lòng xác nhận tham dự (RSVP)</p>
         </div>
     </section>
 
@@ -57,7 +57,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Gallery Section -->
     <section id="gallery">
-        <h2 style="text-align: center;">Gallery</h2>
+        <h2 style="text-align: center;">Thư viện</h2>
         {% include_relative gallery.md %}
     </section>
 
@@ -65,7 +65,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Location Section -->
     <section id="location">
-        <h2 style="text-align: center;">Location</h2>
+        <h2 style="text-align: center;">Địa điểm</h2>
         <div style="text-align: center;">
             <img src="/homepage/mapimage.jpeg" alt="img" style="width: 80%; max-width: 600px; height: auto;">
         </div>
@@ -94,7 +94,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2 style="text-align: center;">Contact</h2>
+        <h2 style="text-align: center;">Liên hệ</h2>
         {% include contact.html %}   
     </section>
 
