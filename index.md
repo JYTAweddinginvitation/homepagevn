@@ -59,7 +59,7 @@ title: Junyoung + Thuc Anh
         <strong><a href="#location">La Vela Saigon</a></strong>
     </p>
     <p>Tầng 5, Sảnh Jupiter</p>
-    <p>vào lúc 19:00</p>
+    <p>vào lúc 18:00</p>
     <p>thứ Bảy, ngày 11 tháng 1 năm 2025</p>
     <p>nhằm ngày 12 tháng 12 năm Giáp Thìn</p>
     <p>·</p>
