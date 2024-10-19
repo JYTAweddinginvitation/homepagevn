@@ -84,14 +84,14 @@ title: Junyoung + Thuc Anh
 
             const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-            let countdownMessage = "";
-            if (daysDifference > 0) {
-                countdownMessage = `There are ${daysDifference} days left until our Wedding day!`;
-            } else if (daysDifference === 0) {
-                countdownMessage = "Today is our Wedding day";
-            } else {
-                countdownMessage = `It has been ${Math.abs(daysDifference)} days since our Wedding day`;
-            }
+      let countdownMessage = "";
+        if (daysDifference > 0) {
+        countdownMessage = `Còn ${daysDifference} ngày nữa là đến ngày chúng tôi kết hôn!`;
+        } else if (daysDifference === 0) {
+        countdownMessage = "Hôm nay là chúng tôi kết hôn!";
+        } else {
+          countdownMessage = `Đã ${Math.abs(daysDifference)} ngày trôi qua kể từ ngày chúng tôi kết hôn!`;
+        }
 
             // Update the countdown display
             document.getElementById("countdown-message").textContent = countdownMessage;
