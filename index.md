@@ -37,30 +37,35 @@ title: Junyoung + Thuc Anh
 
     <!-- About Section -->
     <section id="about">
-        <h2 style="text-align: center;">Giới thiệu</h2>
+        <h2 style="text-align: center;">Thư mời</h2>
         <div style="text-align: center;">
             <img src="{{'/img/about.jpeg' | relative_url }} " alt="img" style="width: 80%; max-width: 600px; height: auto;">
         </div>
 
-        <div style="text-align: center;">
- <p>Kính mời bạn đến tham dự</p>
-<p></p>
-<p>lễ cưới của chúng tôi</p>
-<p></p>
-<p>vào <strong>thứ Bảy, ngày 11 tháng 1 năm 2025</strong></p>
-<p></p>
-<p>lúc <strong>7 giờ tối</strong></p>
-<p></p>
-<p>tại <strong><a href="#location">La Vela Saigon</a></strong></p>
-<p></p>
-<p>Tầng 5, Sảnh Jupiter</p>
-<p></p>
-<p>tiếp theo là lễ cắt bánh</p>
-<p></p>
-<p>và khiêu vũ đến khuya</p>
-<p></p>
-<p>Vui lòng xác nhận tham dự (RSVP)</p>
-        </div>
+<div style="text-align: center;">
+    <p>Chúng tôi tuy đến từ hai quốc gia khác nhau,</p>
+    <p>nhưng nay chọn cùng nhau đồng hành trên chuyến hành trình phía trước.</p>
+    <p>·</p>
+    <p>Dù khác biệt về ngôn ngữ, văn hóa</p>
+    <p>cũng như khoảng cách địa lý,</p>
+    <p>nhưng cả hai quyết định sống bên nhau</p>
+    <p>với sự thấu hiểu, tôn trọng,</p>
+    <p>và yêu thương chăm sóc.</p>
+    <p>·</p>
+    <p>Chúng tôi trân trọng kính mời quý vị đến dự</p>
+    <p>buổi tiệc chung vui cùng gia đình chúng tôi tại khách sạn 
+        <strong><a href="#location">La Vela Saigon</a></strong>
+    </p>
+    <p>Tầng 5, Sảnh Jupiter</p>
+    <p>vào lúc 19:00</p>
+    <p>thứ Bảy, ngày 11 tháng 1 năm 2025</p>
+    <p>nhằm ngày 12 tháng 12 năm Giáp Thìn</p>
+    <p>·</p>
+    <p>Sự hiện diện của Quý vị</p>
+    <p>là niềm vinh hạnh cho gia đình chúng tôi</p>
+    <p>Rất hân hạnh được đón tiếp</p>
+    <p>Kính mời</p>
+</div>
     </section>
 
   <hr>
