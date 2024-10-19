@@ -74,7 +74,8 @@ title: Junyoung + Thuc Anh
     </section>
 
     <div class="countdown-container">
-      <p style="text-align: center;" id="countdown-message"></p>    </div>
+      <p style="text-align: center;" id="countdown-message"></p>
+    </div>
     <script>
         // Function to calculate and update the days left or passed
         function updateCountdown() {
@@ -84,14 +85,14 @@ title: Junyoung + Thuc Anh
 
             const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
-      let countdownMessage = "";
-        if (daysDifference > 0) {
-        countdownMessage = `Còn ${daysDifference} ngày nữa là đến ngày chúng tôi kết hôn!`;
-        } else if (daysDifference === 0) {
-        countdownMessage = "Hôm nay là chúng tôi kết hôn!";
-        } else {
-          countdownMessage = `Đã ${Math.abs(daysDifference)} ngày trôi qua kể từ ngày chúng tôi kết hôn!`;
-        }
+            let countdownMessage = "";
+            if (daysDifference > 0) {
+                countdownMessage = `Còn ${daysDifference} ngày nữa là đến ngày chúng tôi kết hôn!`;
+            } else if (daysDifference === 0) {
+                countdownMessage = "Hôm nay là ngày chúng tôi kết hôn!";
+            } else {
+                countdownMessage = `Đã ${Math.abs(daysDifference)} ngày trôi qua kể từ ngày chúng tôi kết hôn!`;
+            }
 
             // Update the countdown display
             document.getElementById("countdown-message").textContent = countdownMessage;
@@ -101,9 +102,9 @@ title: Junyoung + Thuc Anh
         updateCountdown();
     </script>
 
-  
-</div>
-    </section>
+    </div> <!-- Closing the container div here -->
+
+
 
   <hr>
 
