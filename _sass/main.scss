@@ -204,7 +204,7 @@ body {
   left: 0;
   width: 100%;
   background-color: white;
-  padding: 5px 0; /* Reduced padding */
+  padding: 4px 0; /* Reduced padding */
   z-index: 1000;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for clarity */
   border-bottom: 2px solid black; /* Single black line under the entire header */
@@ -243,7 +243,7 @@ body {
     }
 
     nav ul li a {
-      font-size: 14px; /* Further reduce font size on mobile */
+      font-size: 13px; /* Further reduce font size on mobile */
       padding: 2px 5px; /* Compact padding for smaller screens */
     }
   }
