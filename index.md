@@ -44,7 +44,8 @@ title: Junyoung + Thuc Anh
 
 <div style="text-align: center;">
     <p>Chúng tôi tuy đến từ hai quốc gia khác nhau,</p>
-    <p>nhưng nay chọn cùng nhau đồng hành trên chuyến hành trình phía trước.</p>
+    <p>nhưng nay chọn đồng hành cùng nhau</p>
+    <p>trên hành trình phía trước.</p>
     <p>·</p>
     <p>Dù khác biệt về ngôn ngữ, văn hóa</p>
     <p>cũng như khoảng cách địa lý,</p>
@@ -52,8 +53,9 @@ title: Junyoung + Thuc Anh
     <p>với sự thấu hiểu, tôn trọng,</p>
     <p>và yêu thương chăm sóc.</p>
     <p>·</p>
-    <p>Chúng tôi trân trọng kính mời quý vị đến dự</p>
-    <p>buổi tiệc chung vui cùng gia đình chúng tôi tại khách sạn 
+    <p>Chúng tôi trân trọng kính mời Quý vị đến dự</p>
+    <p>buổi tiệc chung vui cùng gia đình chúng tôi</p>
+    <p>tại khách sạn 
         <strong><a href="#location">La Vela Saigon</a></strong>
     </p>
     <p>Tầng 5, Sảnh Jupiter</p>
@@ -72,7 +74,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Gallery Section -->
     <section id="gallery">
-        <h2 style="text-align: center;">Thư viện</h2>
+        <h2 style="text-align: center;">Thư viện ảnh</h2>
         {% include_relative gallery.md %}
     </section>
 
