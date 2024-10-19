@@ -87,11 +87,11 @@ title: Junyoung + Thuc Anh
 
       let countdownMessage = "";
       if (daysDifference > 0) {
-        countdownMessage = `Còn ${daysDifference} ngày nữa là đến ngày chúng tôi kết hôn!`;
+        countdownMessage = `Còn ${daysDifference} ngày nữa là đến ngày chúng tôi kết hôn.`;
       } else if (daysDifference === 0) {
-        countdownMessage = "Hôm nay là ngày chúng tôi kết hôn!";
+        countdownMessage = "Hôm nay là ngày chúng tôi kết hôn.";
       } else {
-        countdownMessage = `Đã ${Math.abs(daysDifference)} ngày trôi qua kể từ ngày chúng tôi kết hôn!`;
+        countdownMessage = `Đã ${Math.abs(daysDifference)} ngày trôi qua kể từ ngày chúng tôi kết hôn.`;
       }
 
       // Update the countdown display
