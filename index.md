@@ -19,7 +19,7 @@ title: Junyoung + Thuc Anh
     <nav>
         <ul>
 <li><a href="#home">Trang chủ</a></li>
-<li><a href="#about">Giới thiệu</a></li>
+<li><a href="#about">Thư mời</a></li>
 <li><a href="#gallery">Thư viện</a></li>
 <li><a href="#location">Địa điểm</a></li>
 <li><a href="#contact">Liên hệ</a></li>
