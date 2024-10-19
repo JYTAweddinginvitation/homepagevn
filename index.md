@@ -68,6 +68,40 @@ title: Junyoung + Thuc Anh
     <p>là niềm vinh hạnh cho gia đình chúng tôi</p>
     <p>Rất hân hạnh được đón tiếp</p>
     <p>Kính mời</p>
+  
+    <img src="/homepage/calender.jpg" alt="calender" style="width: 420px; height: 420px; display: block; margin: 0 auto;">
+        </div>
+    </section>
+
+    <div class="countdown-container">
+      <p style="text-align: center;" id="countdown-message"></p>    </div>
+    <script>
+        // Function to calculate and update the days left or passed
+        function updateCountdown() {
+            const weddingDate = new Date("January 11, 2025").getTime();
+            const today = new Date().getTime();
+            const timeDifference = weddingDate - today;
+
+            const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+            let countdownMessage = "";
+            if (daysDifference > 0) {
+                countdownMessage = `There are ${daysDifference} days left until our Wedding day!`;
+            } else if (daysDifference === 0) {
+                countdownMessage = "Today is our Wedding day";
+            } else {
+                countdownMessage = `It has been ${Math.abs(daysDifference)} days since our Wedding day`;
+            }
+
+            // Update the countdown display
+            document.getElementById("countdown-message").textContent = countdownMessage;
+        }
+
+        // Call the function to update the countdown
+        updateCountdown();
+    </script>
+
+  
 </div>
     </section>
 
