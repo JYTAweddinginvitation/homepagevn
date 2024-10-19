@@ -69,7 +69,7 @@ title: Junyoung + Thuc Anh
     <p>Rất hân hạnh được đón tiếp</p>
     <p>Kính mời</p>
   
-    <img src="/homepage/calender.jpg" alt="calender" style="width: 420px; height: 420px; display: block; margin: 0 auto;">
+            <img src="/homepage/calender.jpg" alt="calender" style="width: 100%; max-width: 480px; height: auto; display: block; margin: 0 auto;">
         </div>
     </section>
 
