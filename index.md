@@ -87,9 +87,9 @@ title: Junyoung + Thuc Anh
             <img src="/homepage/mapimage.jpeg" alt="img" style="width: 80%; max-width: 600px; height: auto;">
         </div>
 
-        <h3 style="text-align: center;">LA VELA SAIGON HOTEL</h3>
-        <h4 style="text-align: center;">5th floor</h4>
-        <h4 style="text-align: center;">Jupiter Hall</h4>
+        <h3 style="text-align: center;">Khách sạn La Vela Saigon</h3>
+        <h4 style="text-align: center;">Tầng 5</h4>
+        <h4 style="text-align: center;">Sảnh Jupiter</h4>
 
         <p style="text-align: center;"><a href="tel:+8402836222280">Tel: +84 (0) 28 3622 2280</a></p>
         <p style="text-align: center;"><a href="mailto:lavelahotel@lavelasaigon.com">Email: lavelahotel@lavelasaigon.com</a></p>
@@ -111,7 +111,7 @@ title: Junyoung + Thuc Anh
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2 style="text-align: center;">Liên hệ</h2>
+        <h2 style="text-align: center;">Thông tin liên hệ</h2>
         {% include contact.html %}   
     </section>
 
