@@ -53,15 +53,16 @@ title: Junyoung + Thuc Anh
     <p>với sự thấu hiểu, tôn trọng,</p>
     <p>và yêu thương chăm sóc.</p>
     <p>·</p>
-    <p>Chúng tôi trân trọng kính mời Quý vị đến dự</p>
-    <p>buổi tiệc chung vui cùng gia đình chúng tôi</p>
+    <p>Chúng tôi trân trọng kính mời Quý vị</p>
+    <p>đến dự buổi tiệc chung vui</p>
+    <p>cùng gia đình chúng tôi</p>
     <p>tại khách sạn 
         <strong><a href="#location">La Vela Saigon</a></strong>
     </p>
     <p>Tầng 5, Sảnh Jupiter</p>
     <p>vào lúc 18:00</p>
     <p>thứ Bảy, ngày 11 tháng 1 năm 2025</p>
-    <p>nhằm ngày 12 tháng 12 năm Giáp Thìn</p>
+    <p style="font-style: italic;">nhằm ngày 12 tháng 12 năm Giáp Thìn</p>
     <p>·</p>
     <p>Sự hiện diện của Quý vị</p>
     <p>là niềm vinh hạnh cho gia đình chúng tôi</p>
